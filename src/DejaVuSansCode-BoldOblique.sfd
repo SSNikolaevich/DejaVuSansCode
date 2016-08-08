@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648524
-ModificationTime: 1470660994
+ModificationTime: 1470662896
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -86084,6 +86084,37 @@ StartChar: equal_equal.liga
 Encoding: 1114138 -1 3112
 Width: 2466
 Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 4
+ 72
+ 6
+ 2
+ 72
+ 0
+ 8
+ 5
+ 1
+ 14
+ 4
+ 0
+ 13
+ 8
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -86098,6 +86129,7 @@ SplineSet
  88 752 l 1,7,-1
  88 987 l 1,4,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" equal equal
 EndChar
 
@@ -86105,6 +86137,70 @@ StartChar: exclam_equal.liga
 Encoding: 1114139 -1 3113
 Width: 2466
 Flags: W
+TtInstrs:
+NPUSHB
+ 34
+ 13
+ 20
+ 10
+ 3
+ 2
+ 0
+ 12
+ 4
+ 0
+ 72
+ 18
+ 6
+ 14
+ 10
+ 72
+ 16
+ 8
+ 20
+ 18
+ 14
+ 13
+ 12
+ 8
+ 4
+ 3
+ 2
+ 8
+ 9
+ 5
+ 14
+ 15
+ 0
+ 13
+ 20
+SRP0
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+SLOOP
+IP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+MDAP[no-rnd]
+SRP0
+MDRP[grey]
+IP
+SRP1
+SRP2
+IP
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -86130,6 +86226,7 @@ SplineSet
  88 752 l 1,19,-1
  88 987 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" exclam equal
 EndChar
 
