@@ -1,39 +1,5 @@
-[![Build Status](https://travis-ci.org/dejavu-fonts/dejavu-fonts.svg)](https://travis-ci.org/dejavu-fonts/dejavu-fonts)
-
-DejaVu fonts 2.37 (c)2004-2016 DejaVu fonts team
-------------------------------------------------
-
-The DejaVu fonts are a font family based on the Bitstream Vera Fonts
-(http://gnome.org/fonts/). Its purpose is to provide a wider range of
-characters (see status.txt for more information) while maintaining the
-original look and feel.
-
-DejaVu fonts are based on Bitstream Vera fonts version 1.10.
-
-Available fonts (Sans = sans serif, Mono = monospaced):
-
-DejaVu Sans Mono
-DejaVu Sans Mono Bold
-DejaVu Sans Mono Bold Oblique
-DejaVu Sans Mono Oblique
-DejaVu Sans
-DejaVu Sans Bold
-DejaVu Sans Bold Oblique
-DejaVu Sans Oblique
-DejaVu Sans ExtraLight (experimental)
-DejaVu Serif
-DejaVu Serif Bold
-DejaVu Serif Bold Italic (experimental)
-DejaVu Serif Italic (experimental)
-DejaVu Sans Condensed (experimental)
-DejaVu Sans Condensed Bold (experimental)
-DejaVu Sans Condensed Bold Oblique (experimental)
-DejaVu Sans Condensed Oblique (experimental)
-DejaVu Serif Condensed (experimental)
-DejaVu Serif Condensed Bold (experimental)
-DejaVu Serif Condensed Bold Italic (experimental)
-DejaVu Serif Condensed Italic (experimental)
-DejaVu Math TeX Gyre
+DejaVu Sans Code is monospaced font with programming ligatures based on DejaVu
+Sans Mono (http://dejavu-fonts.org).
 
 All fonts are also available as derivative called DejaVu LGC with support
 only for Latin, Greek and Cyrillic scripts.
@@ -44,8 +10,6 @@ bugs are in BUGS. All authors are mentioned in AUTHORS.
 Fonts are published in source form as SFD files (Spline Font Database from
 FontForge - http://fontforge.sf.net/) and in compiled form as TTF files
 (TrueType fonts).
-
-For more information go to http://dejavu.sourceforge.net/.
 
 Characters from Arev fonts, Copyright (c) 2006 by Tavmjong Bah:
 ---------------------------
@@ -59,9 +23,3 @@ U+213C-U+2140, U+2295-U+2298, U+2308-U+230B, U+26A2-U+26B1, U+2701-U+2704,
 U+2706-U+2709, U+270C-U+274B, U+2758-U+275A, U+2761-U+2775, U+2780-U+2794,
 U+2798-U+27AF, U+27B1-U+27BE, U+FB05-U+FB06
 
-DejaVu Math TeX Gyre
---------------------
-TeX Gyre DJV Math by B. Jackowski, P. Strzelczyk and P. Pianowski
-(on behalf of TeX users groups).
-
-$Id$
