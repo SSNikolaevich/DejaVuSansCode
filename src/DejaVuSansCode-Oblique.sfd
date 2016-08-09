@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1470745819
+ModificationTime: 1470750166
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -85998,7 +85998,7 @@ EndChar
 StartChar: equal_equal_equal.liga
 Encoding: 1114139 -1 3113
 Width: 3699
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  17
@@ -86106,7 +86106,7 @@ Width: 2466
 Flags: W
 TtInstrs:
 NPUSHB
- 16
+ 20
  3
  2
  8
@@ -86117,29 +86117,37 @@ NPUSHB
  108
  6
  10
- 6
+ 3
  8
+ 2
  9
+ 4
  7
+ 1
  0
+ 6
  10
 SRP0
+MDRP[rnd,grey]
 MDRP[rp0,rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
 IUP[x]
 SVTCA[y-axis]
 SRP0
 MDRP[rp0,rnd,grey]
 MIRP[min,rnd,grey]
+IP
+IP
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
 MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-MDRP[rnd,grey]
+MDRP[min,rnd,grey]
 IUP[y]
 EndTTInstrs
 LayerCount: 2
