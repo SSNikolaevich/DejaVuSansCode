@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1470667880
+ModificationTime: 1470745895
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -106457,7 +106457,45 @@ EndChar
 StartChar: equal_equal_equal.liga
 Encoding: 1114167 -1 3719
 Width: 3699
-Flags: W
+Flags: WO
+TtInstrs:
+NPUSHB
+ 17
+ 10
+ 118
+ 8
+ 2
+ 118
+ 0
+ 6
+ 118
+ 4
+ 12
+ 9
+ 1
+ 5
+ 8
+ 0
+ 4
+ 12
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -106477,6 +106515,7 @@ SplineSet
  88 986.75 l 1,11,-1
  88 1221.75 l 1,8,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Programming ligatures lookup-1" equal equal equal
 EndChar
 
