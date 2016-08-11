@@ -1,7 +1,7 @@
 .PHONY: all check munge full lgc ttf full-ttf lgc-ttf status dist src-dist full-dist lgc-dist norm check-harder pre-patch clean
 
 # Release version
-VERSION = 2.37
+VERSION = 0.1
 # Snapshot version
 SNAPSHOT =
 # Initial source directory, assumed read-only

@@ -4,7 +4,7 @@ FullName: DejaVu Sans Code Oblique
 FamilyName: DejaVu Sans Code
 Weight: Book
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes are in public domain\n
-Version: 2.37
+Version: 0.1
 ItalicAngle: -11
 UnderlinePosition: -85
 UnderlineWidth: 90
@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1470750166
+ModificationTime: 1470896751
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

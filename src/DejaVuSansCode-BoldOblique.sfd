@@ -4,7 +4,7 @@ FullName: DejaVu Sans Code Bold Oblique
 FamilyName: DejaVu Sans Code
 Weight: Bold
 Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nDejaVu changes are in public domain\n
-Version: 2.37
+Version: 0.1
 ItalicAngle: -11
 UnderlinePosition: -85
 UnderlineWidth: 90
@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648524
-ModificationTime: 1470750208
+ModificationTime: 1470896788
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -86338,7 +86338,7 @@ EndChar
 StartChar: less_hyphen.liga
 Encoding: 1114142 -1 3116
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  20
