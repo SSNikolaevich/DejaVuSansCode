@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648524
-ModificationTime: 1470901955
+ModificationTime: 1470904525
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -86299,6 +86299,72 @@ StartChar: exclam_equal_equal.liga
 Encoding: 1114141 -1 3115
 Width: 3699
 Flags: W
+TtInstrs:
+NPUSHB
+ 31
+ 6
+ 3
+ 2
+ 7
+ 72
+ 8
+ 9
+ 0
+ 1
+ 10
+ 27
+ 26
+ 11
+ 72
+ 12
+ 13
+ 24
+ 25
+ 14
+ 23
+ 22
+ 15
+ 72
+ 16
+ 17
+ 20
+ 21
+ 28
+ 7
+ 21
+ 28
+SRP0
+MDRP[rnd,grey]
+MDRP[rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -86332,6 +86398,7 @@ SplineSet
  1771 760.5 l 9,27,-1
  1871 986.75 l 17,0,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Programming ligatures lookup-1" exclam equal equal
 EndChar
 

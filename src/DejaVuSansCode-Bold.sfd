@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1470901864
+ModificationTime: 1470903994
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -106522,7 +106522,73 @@ EndChar
 StartChar: exclam_equal_equal.liga
 Encoding: 1114168 -1 3720
 Width: 3699
-Flags: W
+Flags: WO
+TtInstrs:
+NPUSHB
+ 31
+ 6
+ 3
+ 2
+ 7
+ 118
+ 8
+ 9
+ 0
+ 1
+ 10
+ 27
+ 26
+ 11
+ 118
+ 12
+ 13
+ 24
+ 25
+ 14
+ 23
+ 22
+ 15
+ 118
+ 16
+ 17
+ 20
+ 21
+ 28
+ 7
+ 21
+ 28
+SRP0
+MDRP[rnd,grey]
+MDRP[rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+ALIGNRP
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -106556,6 +106622,7 @@ SplineSet
  1771 760.5 l 9,27,-1
  1871 986.75 l 17,0,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Programming ligatures lookup-1" exclam equal equal
 EndChar
 
@@ -106631,7 +106698,7 @@ EndChar
 StartChar: hyphen_greater.liga
 Encoding: 1114170 -1 3722
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  25
