@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1470914927
+ModificationTime: 1470920709
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -86384,7 +86384,7 @@ EndChar
 StartChar: greater_equal.liga
 Encoding: 1114144 -1 3118
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  19
@@ -86450,7 +86450,65 @@ EndChar
 StartChar: plus_plus.liga
 Encoding: 1114145 -1 3119
 Width: 2466
-Flags: W
+Flags: WO
+TtInstrs:
+NPUSHB
+ 29
+ 1
+ 17
+ 109
+ 3
+ 19
+ 15
+ 108
+ 6
+ 10
+ 14
+ 109
+ 8
+ 12
+ 20
+ 5
+ 13
+ 3
+ 7
+ 15
+ 0
+ 8
+ 19
+ 11
+ 15
+ 16
+ 12
+ 13
+ 14
+ 20
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -86476,6 +86534,7 @@ SplineSet
  788 727 l 1,19,-1
  1677 727 l 5,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" plus plus
 EndChar
 EndChars
