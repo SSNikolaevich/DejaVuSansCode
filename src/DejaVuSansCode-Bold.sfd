@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1470907299
+ModificationTime: 1470915004
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -106777,7 +106777,7 @@ EndChar
 StartChar: less_equal.liga
 Encoding: 1114171 -1 3723
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  19
@@ -106843,7 +106843,48 @@ EndChar
 StartChar: greater_equal.liga
 Encoding: 1114172 -1 3724
 Width: 2466
-Flags: W
+Flags: WO
+TtInstrs:
+NPUSHB
+ 19
+ 6
+ 118
+ 0
+ 1
+ 5
+ 118
+ 4
+ 2
+ 118
+ 3
+ 10
+ 118
+ 8
+ 11
+ 5
+ 10
+ 6
+ 8
+ 11
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rnd,grey]
+MDRP[rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+IP
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
