@@ -26,10 +26,10 @@ else
 ARCHIVEVER = $(VERSION)-$(SNAPSHOT)
 endif
 
-SRCARCHIVE  = dejavu-fonts-$(ARCHIVEVER)
-FULLARCHIVE = dejavu-fonts-ttf-$(ARCHIVEVER)
-SANSARCHIVE = dejavu-sans-ttf-$(ARCHIVEVER)
-LGCARCHIVE  = dejavu-lgc-fonts-ttf-$(ARCHIVEVER)
+SRCARCHIVE  = dejavu-code-fonts-$(ARCHIVEVER)
+FULLARCHIVE = dejavu-code-fonts-ttf-$(ARCHIVEVER)
+SANSARCHIVE = dejavu-sans-code-ttf-$(ARCHIVEVER)
+LGCARCHIVE  = dejavu-lgc-code-fonts-ttf-$(ARCHIVEVER)
 
 ARCHIVEEXT = .zip .tar.bz2
 SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
