@@ -5,6 +5,8 @@ DejaVu Sans Code is monospaced font with programming ligatures based on DejaVu
 Sans Mono. This repository is a fork of the
 [DejaVu fonts repository](https://github.com/dejavu-fonts/dejavu-fonts).
 
+<img src="https://github.com/SSNikolaevich/DejaVuSansCode/raw/master/sample.png">
+
 Currently implemented symbols
 ---------------------------
 == != === !=== <- -> <= => ++
