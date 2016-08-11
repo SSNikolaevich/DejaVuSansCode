@@ -109418,6 +109418,47 @@ StartChar: less_equal.liga
 Encoding: 1114171 -1 3784
 Width: 2466
 Flags: W
+TtInstrs:
+NPUSHB
+19
+1
+160
+0
+6
+2
+160
+3
+5
+160
+4
+7
+160
+9
+11
+1
+7
+3
+9
+11
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rnd,grey]
+MDRP[rnd,grey]
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+IP
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
