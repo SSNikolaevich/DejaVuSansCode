@@ -1,7 +1,7 @@
 .PHONY: all check munge full lgc ttf full-ttf lgc-ttf status dist src-dist full-dist lgc-dist norm check-harder pre-patch clean
 
 # Release version
-VERSION = 0.1
+VERSION = 1.0
 # Snapshot version
 SNAPSHOT =
 # Initial source directory, assumed read-only
@@ -26,10 +26,9 @@ else
 ARCHIVEVER = $(VERSION)-$(SNAPSHOT)
 endif
 
-SRCARCHIVE  = dejavu-code-fonts-$(ARCHIVEVER)
-FULLARCHIVE = dejavu-code-fonts-ttf-$(ARCHIVEVER)
-SANSARCHIVE = dejavu-sans-code-ttf-$(ARCHIVEVER)
-LGCARCHIVE  = dejavu-lgc-code-fonts-ttf-$(ARCHIVEVER)
+SRCARCHIVE  = dejavu-code-$(ARCHIVEVER)
+FULLARCHIVE = dejavu-code-ttf-$(ARCHIVEVER)
+LGCARCHIVE  = dejavu-code-lgc-ttf-$(ARCHIVEVER)
 
 ARCHIVEEXT = .zip .tar.bz2
 SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
@@ -184,14 +183,6 @@ $(TMPDIR)/$(FULLARCHIVE): full
 	install -p -m 0644 $(FULLTTF) $@/$(TTFDIR)
 	install -p -m 0644 $(FONTCONFFULL) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
-	                   $(STATICDOC) $@/$(DOCDIR)
-
-$(TMPDIR)/$(SANSARCHIVE): sans
-	@echo "[8] => $@"
-	install -d -m 0755 $@/$(TTFDIR)
-	install -d -m 0755 $@/$(DOCDIR)
-	install -p -m 0644 $(BUILDDIR)/DejaVuSans.ttf $@/$(TTFDIR)
-	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCSANS)) \
 	                   $(STATICDOC) $@/$(DOCDIR)
 
 $(TMPDIR)/$(LGCARCHIVE): lgc
