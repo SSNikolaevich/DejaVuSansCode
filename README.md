@@ -7,6 +7,8 @@ Sans Mono. This repository is a fork of the
 
 <img src="./sample.png">
 
+[Download latest release](https://github.com/SSNikolaevich/DejaVuSansCode/releases/latest).
+
 Currently implemented symbols
 ---------------------------
 == != === !=== <- -> <= => ++
