@@ -17,4 +17,5 @@ Supported editors
 ---------------------------
 + KDE Applications: Konsole, KWrite, Kate, KDevelop, etc.
 + Intellij IDEA
++ Qt Creator
 
