@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1470915004
+ModificationTime: 1470992417
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -39,6 +39,7 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
+Lookup: 2 0 0 "'ccmp' Programming glyphs decomposition lookup"  {"'ccmp' Programming glyphs decomposition lookup 1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 4 0 1 "Programming ligatures lookup"  {"Programming ligatures lookup-1"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0"  {"'locl' Localized Forms in Cyrillic lookup 0"  } ['locl' ('cyrl' <'SRB ' > ) ]
@@ -49,6 +50,7 @@ Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 5"  {"'rlig' Required 
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 6"  {"'liga' Standard Ligatures in Arabic lookup 6"  } ['liga' ('arab' <'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 9"  {"'dlig' Discretionary Ligatures in Latin lookup 9"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Programming contextual alteratives lookup"  {"'calt' Programming contextual alternatives lookup 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2"  {"'mark' Mark Positioning in Arabic lookup 2"  } ['mark' ('arab' <'dflt' > ) ]
@@ -61,6 +63,73 @@ Lookup: 257 0 0 "'mark' Mark Positioning lookup 8"  {"'mark' Mark Positioning lo
 Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1"  0 0 0 13
+ String: 22 equal_equal_equal.liga
+ BString: 0 
+ FString: 6 equal 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 22 equal_equal_equal.liga
+ BString: 0 
+ FString: 17 equal_equal.liga 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 22 equal_equal_equal.liga
+ BString: 0 
+ FString: 23 equal_equal_equal.liga 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 22 equal_equal_equal.liga
+ BString: 5 equal
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 16 equal_equal.liga
+ BString: 5 equal
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 22 equal_equal_equal.liga
+ BString: 11 slash slash
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 16 equal_equal.liga
+ BString: 11 slash slash
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 16 equal_equal.liga
+ BString: 10 numbersign
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 22 equal_equal_equal.liga
+ BString: 10 numbersign
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 14 plus_plus.liga
+ BString: 0 
+ FString: 5 plus 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 14 plus_plus.liga
+ BString: 14 plus_plus.liga
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 14 plus_plus.liga
+ BString: 0 
+ FString: 15 plus_plus.liga 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 14 plus_plus.liga
+ BString: 4 plus
+ FString: 0 
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+EndFPST
 TtTable: prep
 PUSHW_1
  640
@@ -106353,6 +106422,7 @@ SplineSet
  88 752 l 1,7,-1
  88 987 l 1,4,-1
 EndSplineSet
+MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" equal equal
 LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" equal equal
 EndChar
@@ -106515,6 +106585,7 @@ SplineSet
  88 986.75 l 1,11,-1
  88 1221.75 l 1,8,-1
 EndSplineSet
+MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" equal equal equal
 LCarets2: 2 0 0 
 Ligature2: "Programming ligatures lookup-1" equal equal equal
 EndChar
@@ -106843,7 +106914,7 @@ EndChar
 StartChar: greater_equal.liga
 Encoding: 1114172 -1 3724
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  19
@@ -106912,32 +106983,32 @@ Width: 2466
 Flags: W
 TtInstrs:
 NPUSHB
-25
-11
-7
-18
-2
-13
-9
-6
-118
-16
-0
-4
-20
-15
-12
-16
-9
-10
-18
-0
-8
-9
-4
-6
-2
-20
+ 25
+ 11
+ 7
+ 18
+ 2
+ 13
+ 9
+ 6
+ 118
+ 16
+ 0
+ 4
+ 20
+ 15
+ 12
+ 16
+ 9
+ 10
+ 18
+ 0
+ 8
+ 9
+ 4
+ 6
+ 2
+ 20
 SRP0
 MDRP[rp0,rnd,grey]
 ALIGNRP
@@ -106989,6 +107060,7 @@ SplineSet
  1664.5 524 l 1,19,-1
  803.5 524 l 1,0,-1
 EndSplineSet
+MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" plus plus
 LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" plus plus
 EndChar

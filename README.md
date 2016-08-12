@@ -15,7 +15,10 @@ Currently implemented symbols
 
 Supported editors
 ---------------------------
-+ KDE Applications: Konsole, KWrite, Kate, KDevelop, etc.
++ KDE Applications: Konsole, KWrite, Kate, KDevelop, etc (Partially.
+  Disabling substitution for long sequences of '=' or '+' doesn't work).
 + Intellij IDEA
 + Qt Creator
++ Atom
++ Libre Office
 
