@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1470992539
+ModificationTime: 1471264645
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1765,7 +1765,7 @@ NameList: AGL without afii
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114014 33 4
+WinInfo: 1114047 33 4
 BeginPrivate: 0
 EndPrivate
 GridOrder2: 1
@@ -1890,7 +1890,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114146 3120
+BeginChars: 1114147 3121
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -86608,6 +86608,37 @@ EndSplineSet
 MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" plus plus
 LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" plus plus
+EndChar
+
+StartChar: colon_colon.liga
+Encoding: 1114146 -1 3120
+Width: 2466
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1718 1061 m 5,0,-1
+ 1970 1061 l 5,1,-1
+ 1910 758 l 5,2,-1
+ 1659 758 l 5,3,-1
+ 1718 1061 l 5,0,-1
+1570 303 m 5,4,-1
+ 1822 303 l 5,5,-1
+ 1763 0 l 5,6,-1
+ 1511 0 l 5,7,-1
+ 1570 303 l 5,4,-1
+909 1061 m 1,8,-1
+ 1161 1061 l 1,9,-1
+ 1101 758 l 1,10,-1
+ 850 758 l 1,11,-1
+ 909 1061 l 1,8,-1
+761 303 m 1,12,-1
+ 1013 303 l 1,13,-1
+ 954 0 l 1,14,-1
+ 702 0 l 1,15,-1
+ 761 303 l 1,12,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" colon colon
 EndChar
 EndChars
 EndSplineFont

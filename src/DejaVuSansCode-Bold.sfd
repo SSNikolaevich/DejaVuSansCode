@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1470992417
+ModificationTime: 1471264885
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1907,7 +1907,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114174 3726
+BeginChars: 1114175 3727
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -107063,6 +107063,37 @@ EndSplineSet
 MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" plus plus
 LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" plus plus
+EndChar
+
+StartChar: colon_colon.liga
+Encoding: 1114174 -1 3726
+Width: 2466
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1432 1063 m 5,0,-1
+ 1765 1063 l 5,1,-1
+ 1765 698 l 5,2,-1
+ 1432 698 l 5,3,-1
+ 1432 1063 l 5,0,-1
+1432 367 m 5,4,-1
+ 1765 367 l 5,5,-1
+ 1765 0 l 5,6,-1
+ 1432 0 l 5,7,-1
+ 1432 367 l 5,4,-1
+701 1063 m 1,8,-1
+ 1034 1063 l 1,9,-1
+ 1034 698 l 1,10,-1
+ 701 698 l 1,11,-1
+ 701 1063 l 1,8,-1
+701 367 m 1,12,-1
+ 1034 367 l 1,13,-1
+ 1034 0 l 1,14,-1
+ 701 0 l 1,15,-1
+ 701 367 l 1,12,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" colon colon
 EndChar
 EndChars
 EndSplineFont
