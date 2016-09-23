@@ -109710,6 +109710,57 @@ StartChar: colon_colon.liga
 Encoding: 1114174 -1 3787
 Width: 2466
 Flags: WO
+TtInstrs:
+NPUSHB
+ 26
+ 2
+ 162
+ 0
+ 172
+ 4
+ 162
+ 6
+ 10
+ 162
+ 8
+ 172
+ 12
+ 162
+ 14
+ 5
+ 1
+ 29
+ 4
+ 0
+ 16
+ 13
+ 9
+ 29
+ 12
+ 8
+ 16
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+MDAP[rnd]
+MIRP[min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

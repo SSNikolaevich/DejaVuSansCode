@@ -86614,6 +86614,167 @@ StartChar: colon_colon.liga
 Encoding: 1114146 -1 3120
 Width: 2466
 Flags: W
+TtInstrs:
+NPUSHB
+ 41
+ 2
+ 16
+ 3
+ 0
+ 3
+ 1
+ 16
+ 0
+ 0
+ 3
+ 6
+ 16
+ 7
+ 4
+ 7
+ 5
+ 16
+ 4
+ 4
+ 7
+ 58
+ 2
+ 110
+ 0
+ 117
+ 4
+ 110
+ 6
+ 6
+ 5
+ 2
+ 3
+ 1
+ 3
+ 2
+ 0
+ 20
+ 4
+ 2
+ 7
+ 16
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MDRP[grey]
+SLOOP
+IP
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+EIF
+CLEAR
+NPUSHB
+ 41
+ 10
+ 16
+ 11
+ 8
+ 11
+ 9
+ 16
+ 8
+ 8
+ 11
+ 14
+ 16
+ 15
+ 12
+ 15
+ 13
+ 16
+ 12
+ 12
+ 15
+ 58
+ 10
+ 110
+ 8
+ 117
+ 12
+ 110
+ 14
+ 14
+ 13
+ 10
+ 3
+ 9
+ 11
+ 2
+ 8
+ 20
+ 12
+ 2
+ 15
+ 16
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MDRP[grey]
+SLOOP
+IP
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[min,rnd,grey]
+MIRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+EIF
+CLEAR
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
