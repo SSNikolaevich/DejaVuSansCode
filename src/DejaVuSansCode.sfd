@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1471263988
+ModificationTime: 1474868757
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -109709,7 +109709,7 @@ EndChar
 StartChar: colon_colon.liga
 Encoding: 1114174 -1 3787
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  26
