@@ -8,6 +8,7 @@ Sans Mono. This repository is a fork of the
 <img src="./sample.png">
 
 [Download latest release](https://github.com/SSNikolaevich/DejaVuSansCode/releases/latest).
+There are two variants of font available. One with all glyphs included and other with only the LGC (Latin-Greek-Cyrillic) subset.
 
 Currently implemented symbols
 ---------------------------
