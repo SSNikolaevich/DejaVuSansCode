@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1474974694
+ModificationTime: 1475827297
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1890,7 +1890,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114148 3122
+BeginChars: 1114149 3123
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -86868,18 +86868,88 @@ LayerCount: 2
 Fore
 SplineSet
 3611 520 m 17,0,-1
- 3195 104 l 1,1,-1
- 3105 194 l 1,2,-1
+ 3091 0 l 1,1,-1
+ 3001 90 l 1,2,-1
  3390 479 l 25,3,-1
  88 479 l 1,4,-1
  121 643 l 1,5,-1
  3390 643 l 25,6,-1
- 3105 928 l 1,7,-1
- 3195 1018 l 1,8,-1
+ 3001 1032 l 1,7,-1
+ 3091 1122 l 1,8,-1
  3611 602 l 9,9,-1
  3611 520 l 17,0,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" hyphen hyphen greater
+EndChar
+
+StartChar: less_hyphen_hyphen.liga
+Encoding: 1114148 -1 3122
+Width: 3699
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 3
+ 2
+ 8
+ 9
+ 1
+ 0
+ 4
+ 108
+ 6
+ 10
+ 3
+ 8
+ 2
+ 9
+ 4
+ 7
+ 1
+ 0
+ 5
+ 6
+ 10
+SRP0
+MDRP[rnd,grey]
+MDRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[min,rnd,grey]
+IP
+IP
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+88 520 m 9,0,-1
+ 88 602 l 17,1,-1
+ 608 1122 l 1,2,-1
+ 698 1032 l 1,3,-1
+ 309 643 l 25,4,-1
+ 3611 643 l 1,5,-1
+ 3578 479 l 1,6,-1
+ 309 479 l 25,7,-1
+ 698 90 l 1,8,-1
+ 608 0 l 1,9,-1
+ 88 520 l 9,0,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" less hyphen hyphen
 EndChar
 EndChars
 EndSplineFont
