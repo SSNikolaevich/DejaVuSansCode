@@ -1907,7 +1907,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114175 3727
+BeginChars: 1114176 3728
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -107141,6 +107141,84 @@ SplineSet
  701 367 l 1,12,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" colon colon
+EndChar
+
+StartChar: hyphen_hyphen_greater.liga
+Encoding: 1114175 -1 3727
+Width: 3699
+Flags: W
+TtInstrs:
+NPUSHB
+ 24
+ 8
+ 7
+ 2
+ 1
+ 10
+ 9
+ 0
+ 5
+ 6
+ 3
+ 4
+ 10
+ 9
+ 0
+ 6
+ 3
+ 4
+ 8
+ 1
+ 7
+ 2
+ 5
+ 4
+ 10
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IP
+IP
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+3611 485 m 21,0,-1
+ 3195 69 l 5,1,-1
+ 3075 189 l 5,2,-1
+ 3330 444 l 29,3,-1
+ 88 444 l 1,4,-1
+ 88 735 l 1,5,-1
+ 3330 735 l 29,6,-1
+ 3075 990 l 5,7,-1
+ 3195 1110 l 5,8,-1
+ 3611 700 l 13,9,-1
+ 3611 485 l 21,0,-1
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "Programming ligatures lookup-1" hyphen hyphen greater
 EndChar
 EndChars
 EndSplineFont

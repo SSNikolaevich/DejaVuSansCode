@@ -1472,7 +1472,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114148 3122
+BeginChars: 1114149 3123
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -86479,7 +86479,7 @@ Width: 2466
 Flags: W
 TtInstrs:
 NPUSHB
- 19
+ 20
  3
  2
  8
@@ -86497,9 +86497,11 @@ NPUSHB
  7
  1
  0
+ 5
  6
  10
 SRP0
+MDRP[rnd,grey]
 MDRP[rnd,grey]
 MDRP[rp0,rnd,grey]
 ALIGNRP
@@ -86531,7 +86533,7 @@ SplineSet
  624 990 l 1,3,-1
  369 735 l 25,4,-1
  2378 735 l 5,5,-1
- 2378 444 l 5,6,-1
+ 2322 444 l 5,6,-1
  369 444 l 25,7,-1
  624 189 l 1,8,-1
  504 69 l 1,9,-1
@@ -86574,7 +86576,7 @@ NPUSHB
  10
 SRP0
 MDRP[rp0,rnd,grey]
-ALIGNRP
+MDRP[rnd,grey]
 MDRP[rp0,rnd,grey]
 ALIGNRP
 MDRP[rp0,min,rnd,grey]
@@ -86608,7 +86610,7 @@ SplineSet
  1842 189 l 5,2,-1
  2097 444 l 29,3,-1
  88 444 l 1,4,-1
- 88 735 l 1,5,-1
+ 144 735 l 1,5,-1
  2097 735 l 29,6,-1
  1842 990 l 5,7,-1
  1962 1110 l 5,8,-1
@@ -87029,6 +87031,83 @@ SplineSet
  772 367 l 1,12,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" colon colon
+EndChar
+
+StartChar: hyphen_hyphen_greater.liga
+Encoding: 1114148 -1 3122
+Width: 3699
+Flags: W
+TtInstrs:
+NPUSHB
+ 24
+ 8
+ 7
+ 2
+ 1
+ 10
+ 9
+ 0
+ 5
+ 6
+ 3
+ 4
+ 10
+ 9
+ 0
+ 6
+ 3
+ 4
+ 8
+ 1
+ 7
+ 2
+ 5
+ 4
+ 10
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IP
+IP
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+3611 485 m 21,0,-1
+ 3195 69 l 5,1,-1
+ 3075 189 l 5,2,-1
+ 3330 444 l 29,3,-1
+ 88 444 l 1,4,-1
+ 144 735 l 1,5,-1
+ 3330 735 l 29,6,-1
+ 3075 990 l 5,7,-1
+ 3195 1110 l 5,8,-1
+ 3611 694 l 13,9,-1
+ 3611 485 l 21,0,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" hyphen hyphen greater
 EndChar
 EndChars
 EndSplineFont
