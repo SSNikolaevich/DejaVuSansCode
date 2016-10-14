@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1475826710
+ModificationTime: 1475831474
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -1907,7 +1907,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114177 3729
+BeginChars: 1114178 3730
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -107286,6 +107286,135 @@ SplineSet
  88 485 l 9,0,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" less hyphen hyphen
+EndChar
+
+StartChar: less_exclam_hyphen_hyphen.liga
+Encoding: 1114177 -1 3729
+Width: 4932
+Flags: W
+TtInstrs:
+PUSHB_6
+ 0
+ 2
+ 24
+ 1
+ 0
+ 24
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+NPUSHB
+ 13
+ 11
+ 4
+ 8
+ 100
+ 6
+ 12
+ 11
+ 9
+ 5
+ 1
+ 8
+ 4
+ 24
+SRP0
+SVTCA[x-axis]
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[min,rnd,grey]
+SHP[rp2]
+IP
+IP
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[rnd,grey]
+MDRP[rp0,min,rnd,grey]
+MDRP[min,rnd,grey]
+
+NPUSHB
+ 19
+ 17
+ 16
+ 22
+ 23
+ 15
+ 14
+ 18
+ 20
+ 24
+ 17
+ 22
+ 16
+ 23
+ 18
+ 21
+ 15
+ 14
+ 20
+ 24
+SRP0
+SVTCA[x-axis]
+MDRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+IP
+IP
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[rnd,grey]
+MDRP[min,rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+2250 735 m 1,0,-1
+ 4844 735 l 5,1,-1
+ 4844 444 l 5,2,-1
+ 2250 444 l 1,3,-1
+ 2250 735 l 1,0,-1
+1716 283 m 1,4,-1
+ 1983 283 l 1,5,-1
+ 1983 0 l 1,6,-1
+ 1716 0 l 1,7,-1
+ 1716 283 l 1,4,-1
+1716 1493 m 1,8,-1
+ 1983 1493 l 1,9,-1
+ 1983 838 l 1,10,-1
+ 1950 481 l 1,11,-1
+ 1751 481 l 1,12,-1
+ 1716 838 l 1,13,-1
+ 1716 1493 l 1,8,-1
+88 485 m 9,14,-1
+ 88 694 l 17,15,-1
+ 573 1179 l 1,16,-1
+ 693 1059 l 1,17,-1
+ 369 735 l 25,18,-1
+ 1449 735 l 1,19,-1
+ 1449 444 l 1,20,-1
+ 369 444 l 25,21,-1
+ 693 120 l 1,22,-1
+ 573 0 l 1,23,-1
+ 88 485 l 9,14,-1
+EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "Programming ligatures lookup-1" less exclam hyphen hyphen
 EndChar
 EndChars
 EndSplineFont

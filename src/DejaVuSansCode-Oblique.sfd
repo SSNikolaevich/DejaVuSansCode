@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1475827297
+ModificationTime: 1475833565
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1890,7 +1890,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114149 3123
+BeginChars: 1114150 3124
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -86949,7 +86949,215 @@ SplineSet
  608 0 l 1,9,-1
  88 520 l 9,0,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Programming ligatures lookup-1" less hyphen hyphen
+EndChar
+
+StartChar: less_exclam_hyphen_hyphen.liga
+Encoding: 1114149 -1 3123
+Width: 4932
+Flags: W
+TtInstrs:
+NPUSHB
+ 24
+ 17
+ 16
+ 22
+ 23
+ 15
+ 14
+ 24
+ 19
+ 18
+ 108
+ 21
+ 20
+ 24
+ 17
+ 22
+ 16
+ 23
+ 18
+ 21
+ 15
+ 14
+ 19
+ 20
+ 24
+SRP0
+MDRP[rnd,grey]
+IP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,min,rnd,grey]
+ALIGNRP
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,min,rnd,grey]
+ALIGNRP
+SRP0
+IP
+IP
+MDRP[rp0,rnd,grey]
+MDRP[min,rnd,grey]
+MDRP[rnd,grey]
+MDRP[min,rnd,grey]
+NPUSHB
+ 11
+ 1
+ 0
+ 19
+ 2
+ 3
+ 20
+ 2
+ 0
+ 1
+ 3
+ 24
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+IP
+IP
+SVTCA[y-axis]
+SRP0
+ALIGNRP
+ALIGNRP
+SRP0
+ALIGNRP
+ALIGNRP
+NPUSHB
+ 46
+ 8
+ 7
+ 2
+ 9
+ 6
+ 5
+ 9
+ 4
+ 9
+ 5
+ 5
+ 4
+ 4
+ 9
+ 12
+ 5
+ 13
+ 10
+ 13
+ 11
+ 5
+ 10
+ 13
+ 58
+ 7
+ 84
+ 10
+ 83
+ 4
+ 81
+ 12
+ 8
+ 10
+ 12
+ 11
+ 7
+ 3
+ 9
+ 5
+ 9
+ 4
+ 1
+ 10
+ 2
+ 13
+ 24
+SVTCA[x-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MIRP[rp0,rnd,grey]
+MDRP[rnd,grey]
+MDRP[grey]
+SRP2
+SLOOP
+IP
+SRP1
+IP
+IUP[x]
+SVTCA[y-axis]
+MDAP[rnd]
+MIRP[rnd,grey]
+MIRP[rp0,min,rnd,grey]
+MIRP[min,rnd,grey]
+IUP[y]
+MPPEM
+GTEQ
+IF
+SPVTL[orthog]
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SPVTL[orthog]
+SRP0
+SFVTCA[x-axis]
+MIRP[min,rnd,black]
+SRP1
+SLOOP
+IP
+EIF
+CLEAR
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+2115 643 m 1,0,-1
+ 4844 643 l 5,1,-1
+ 4811 479 l 5,2,-1
+ 2082 479 l 1,3,-1
+ 2115 643 l 1,0,-1
+1895 1493 m 1,4,-1
+ 2097 1493 l 1,5,-1
+ 1968 838 l 1,6,-1
+ 1880 481 l 1,7,-1
+ 1718 481 l 1,8,-1
+ 1768 838 l 1,9,-1
+ 1895 1493 l 1,4,-1
+1653 254 m 1,10,-1
+ 1856 254 l 1,11,-1
+ 1806 0 l 1,12,-1
+ 1604 0 l 1,13,-1
+ 1653 254 l 1,10,-1
+88 520 m 9,14,-1
+ 88 602 l 17,15,-1
+ 608 1122 l 1,16,-1
+ 698 1032 l 1,17,-1
+ 309 643 l 25,18,-1
+ 1549 643 l 1,19,-1
+ 1516 479 l 1,20,-1
+ 309 479 l 25,21,-1
+ 698 90 l 1,22,-1
+ 608 0 l 1,23,-1
+ 88 520 l 9,14,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" less exclam hyphen hyphen
 EndChar
 EndChars
 EndSplineFont
