@@ -11,7 +11,7 @@ Sans Mono. This repository is a fork of the
 
 Currently implemented symbols
 ---------------------------
-== != === !=== <- -> <= => ++
+    == != === !=== <!-- <-- <- -> --> <= => ++ ::
 
 Supported editors
 ---------------------------
