@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648549
-ModificationTime: 1475833565
+ModificationTime: 1476451414
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1890,7 +1890,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" 
-BeginChars: 1114150 3124
+BeginChars: 1114151 3125
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -87158,6 +87158,88 @@ SplineSet
  88 520 l 9,14,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" less exclam hyphen hyphen
+EndChar
+
+StartChar: asciitilde_equal.liga
+Encoding: 1114150 -1 3124
+Width: 2466
+Flags: W
+TtInstrs:
+NPUSHB
+23
+4
+108
+5
+20
+108
+19
+1
+0
+108
+2
+3
+34
+4
+5
+1
+3
+2
+20
+19
+0
+3
+3
+34
+SRP0
+MDRP[rp0,rnd,grey]
+SLOOP
+ALIGNRP
+MDRP[rp0,rnd,grey]
+SLOOP
+ALIGNRP
+IUP[x]
+SVTCA[y-axis]
+SRP0
+MDRP[rp0,rnd,grey]
+ALIGNRP
+MIRP[rp0,rnd,grey]
+ALIGNRP
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+MDRP[rp0,rnd,grey]
+MIRP[rnd,grey]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+88 524 m 5,0,-1
+ 2378 524 l 5,1,-1
+ 2378 352 l 5,2,-1
+ 88 352 l 5,3,-1
+ 88 524 l 5,0,-1
+2378 971.2 m 5,4,-1
+ 2378 772.75 l 5,5,6
+ 2215.55 684.242 2215.55 684.242 2060.66 643 c 132,-1,7
+ 1905.75 601.75 1905.75 601.75 1734.59 601.75 c 4,8,9
+ 1557.54 601.75 1557.54 601.75 1294.78 678.25 c 4,10,11
+ 1246.83 692.211 1246.83 692.211 1223.29 699.25 c 4,12,13
+ 1048.29 751.567 1048.29 751.567 944.885 768.25 c 4,14,15
+ 833.307 786.25 833.307 786.25 722.812 786.25 c 4,16,17
+ 551.653 786.25 551.653 786.25 398.912 742 c 132,-1,18
+ 246.165 697.748 246.165 697.748 88 601.75 c 5,19,-1
+ 88 798.7 l 5,20,21
+ 257.007 888.702 257.007 888.702 415.161 929.95 c 132,-1,22
+ 573.32 971.2 573.32 971.2 753.145 971.2 c 4,23,24
+ 867.967 971.2 867.967 971.2 976.3 954.7 c 4,25,26
+ 1115.98 933.424 1115.98 933.424 1247.12 890.2 c 4,27,28
+ 1268.41 883.185 1268.41 883.185 1316.45 867.7 c 4,29,30
+ 1567.77 786.7 1567.77 786.7 1769.26 786.7 c 4,31,32
+ 1920.92 786.7 1920.92 786.7 2069.33 831.7 c 132,-1,33
+ 2217.76 876.7 2217.76 876.7 2378 971.2 c 5,4,-1
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "Programming ligatures lookup-1" asciitilde equal
 EndChar
 EndChars
 EndSplineFont
