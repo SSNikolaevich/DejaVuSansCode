@@ -43,7 +43,7 @@ TTPOSTPROC  = $(SCRIPTSDIR)/ttpostproc.pl
 LGC         = $(SCRIPTSDIR)/lgc.pe
 UNICOVER    = $(SCRIPTSDIR)/unicover.pl
 LANGCOVER   = $(SCRIPTSDIR)/langcover.pl
-STATUS	    = $(SCRIPTSDIR)/status.pl
+STATUS      = $(SCRIPTSDIR)/status.pl
 PROBLEMS    = $(SCRIPTSDIR)/problems.pl
 NORMALIZE   = $(SCRIPTSDIR)/sfdnormalize.pl
 NARROW      = $(SCRIPTSDIR)/narrow.pe
@@ -62,7 +62,7 @@ FONTCONF     := $(wildcard $(FONTCONFDIR)/*.conf)
 FONTCONFLGC  := $(wildcard $(FONTCONFDIR)/*lgc*.conf)
 FONTCONFFULL := $(filter-out $(FONTCONFLGC), $(FONTCONF))
 
-STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README.md)
+STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README.md sample.png)
 STATICSRCDOC := $(addprefix $(DOCDIR)/, BUILDING)
 GENDOCFULL = unicover.txt langcover.txt status.txt
 GENDOCLGC  = unicover-lgc.txt langcover-lgc.txt
