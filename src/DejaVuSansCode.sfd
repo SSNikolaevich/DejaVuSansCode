@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1487929121
+ModificationTime: 1501433326
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2503,7 +2503,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' above, below" "below"  "'mark' above, below" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114180 3793
+BeginChars: 1114181 3794
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -110228,6 +110228,42 @@ SplineSet
 EndSplineSet
 LCarets2: 1 0 
 Ligature2: "Programming ligatures lookup-1" equal greater
+EndChar
+
+StartChar: less_equal_greater.liga
+Encoding: 1114180 -1 3793
+Width: 3699
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+398 524 m 1,0,-1
+ 280 642 l 9,1,-1
+ 398 760 l 1,2,-1
+ 3301 760 l 1,3,-1
+ 3419 642 l 17,4,-1
+ 3301 524 l 1,5,-1
+ 398 524 l 1,0,-1
+3131 352 m 5,6,-1
+ 2975 196 l 1,7,-1
+ 3095 80 l 1,8,-1
+ 3611 600 l 9,9,-1
+ 3611 682 l 17,10,-1
+ 3095 1202 l 1,11,-1
+ 2975 1086 l 1,12,-1
+ 3131 930 l 1,13,-1
+ 568 930 l 1,14,-1
+ 724 1086 l 1,15,-1
+ 604 1202 l 1,16,-1
+ 88 682 l 9,17,-1
+ 88 600 l 17,18,-1
+ 604 80 l 1,19,-1
+ 724 196 l 1,20,-1
+ 568 352 l 5,21,-1
+ 3131 352 l 5,6,-1
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "Programming ligatures lookup-1" less equal greater
 EndChar
 EndChars
 EndSplineFont
