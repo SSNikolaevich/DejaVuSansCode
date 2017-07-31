@@ -12,7 +12,7 @@ There are two variants of font available. One with all glyphs included and other
 
 Currently implemented symbols
 ---------------------------
-    == != ~= === !== <!-- <-- <- -> --> <= >= => ++ ::
+    == != ~= === !== <!-- <-- <- -> --> <= >= => <=> ++ ::
 
 Supported editors
 ---------------------------
