@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1501433326
+ModificationTime: 1505816752
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,70 +65,80 @@ Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in L
 Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1"  0 0 0 13
+ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1"  0 0 0 15
  String: 22 equal_equal_equal.liga
- BString: 0 
- FString: 6 equal 
+ BString: 0
+ FString: 5 equal
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
- BString: 0 
- FString: 17 equal_equal.liga 
+ BString: 0
+ FString: 16 equal_equal.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
- BString: 0 
- FString: 23 equal_equal_equal.liga 
+ BString: 0
+ FString: 22 equal_equal_equal.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 5 equal
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 5 equal
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 11 slash slash
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 11 slash slash
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 10 numbersign
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 10 numbersign
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
- BString: 0 
- FString: 5 plus 
+ BString: 0
+ FString: 4 plus
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
  BString: 14 plus_plus.liga
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
- BString: 0 
- FString: 15 plus_plus.liga 
+ BString: 0
+ FString: 14 plus_plus.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
  BString: 4 plus
- FString: 0 
+ FString: 0
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 18 greater_equal.liga
+ BString: 7 greater
+ FString: 0
+ 1
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+ String: 15 less_equal.liga
+ BString: 4 less
+ FString: 0
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
 EndFPST
@@ -109547,6 +109557,7 @@ SplineSet
  88 0 l 1,10,-1
  2378 0 l 1,7,-1
 EndSplineSet
+MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" less equal
 Ligature2: "Programming ligatures lookup-1" less equal
 EndChar
 
@@ -109612,6 +109623,7 @@ SplineSet
  88 -170 l 1,10,-1
  88 0 l 1,7,-1
 EndSplineSet
+MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" greater equal
 Ligature2: "Programming ligatures lookup-1" greater equal
 EndChar
 
@@ -110152,7 +110164,7 @@ EndChar
 StartChar: equal_greater.liga
 Encoding: 1114179 -1 3792
 Width: 2466
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHB
  24
