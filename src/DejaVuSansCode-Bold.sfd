@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648507
-ModificationTime: 1505816978
+ModificationTime: 1557141162
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -65,78 +65,78 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1"  0 0 0 15
  String: 22 equal_equal_equal.liga
- BString: 0
+ BString: 0 
  FString: 5 equal
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
- BString: 0
+ BString: 0 
  FString: 16 equal_equal.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
- BString: 0
+ BString: 0 
  FString: 22 equal_equal_equal.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 5 equal
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 5 equal
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 11 slash slash
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 11 slash slash
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 16 equal_equal.liga
  BString: 10 numbersign
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 22 equal_equal_equal.liga
  BString: 10 numbersign
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
- BString: 0
+ BString: 0 
  FString: 4 plus
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
  BString: 14 plus_plus.liga
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
- BString: 0
+ BString: 0 
  FString: 14 plus_plus.liga
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 14 plus_plus.liga
  BString: 4 plus
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 18 greater_equal.liga
  BString: 7 greater
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
  String: 15 less_equal.liga
  BString: 4 less
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
 EndFPST
@@ -1789,10 +1789,10 @@ LangName: 1033 "" "" "" "DejaVu Sans Code Bold" "" "Version 2.37" "" "" "DejaVu 
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL without afii
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114080 33 4
+WinInfo: 7821 33 4
 BeginPrivate: 0
 EndPrivate
 GridOrder2: 1
@@ -1917,7 +1917,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' Mark Positioning lookup 7" "below"  "'mark' Mark Positioning lookup 6" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
-BeginChars: 1114181 3733
+BeginChars: 1114181 3779
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -29110,7 +29110,7 @@ EndChar
 StartChar: hookabovecomb
 Encoding: 777 777 664
 Width: 1233
-Flags: W
+Flags: WO
 AnchorPoint: "above" 616 1120 mark 0
 LayerCount: 2
 Fore
@@ -53448,9 +53448,8 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3669 -1 N 1 0 0 1 0 515 2
-Refer: 34 65 N 1 0 0 1 0 0 2
-Refer: 3674 -1 N 1 0 0 1 0 -128 2
+Refer: 3669 -1 N 1 0 0 1 -51 759 2
+Refer: 194 258 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni1EB1
@@ -53459,8 +53458,8 @@ Width: 1233
 Flags: W
 LayerCount: 2
 Fore
+Refer: 655 768 N 1 0 0 1 -49 466 2
 Refer: 195 259 N 1 0 0 1 0 0 3
-Refer: 655 768 N 1 0 0 1 0 316 2
 EndChar
 
 StartChar: uni1EB6
@@ -107689,6 +107688,466 @@ SplineSet
  3008 295 l 5,6,-1
 EndSplineSet
 Ligature2: "Programming ligatures lookup-1" less equal greater
+EndChar
+
+StartChar: uni1EA2
+Encoding: 7842 7842 3733
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -7.49994 374.3 2
+Refer: 34 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA3
+Encoding: 7843 7843 3734
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 0 2
+Refer: 66 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA4
+Encoding: 7844 7844 3735
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3667 -1 S 1 0 0 1 402 630 2
+Refer: 130 194 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA5
+Encoding: 7845 7845 3736
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 656 769 S 1 0 0 1 385 354 2
+Refer: 162 226 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA6
+Encoding: 7846 7846 3737
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3669 -1 S 1 0 0 1 -442 634.5 2
+Refer: 130 194 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA7
+Encoding: 7847 7847 3738
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 655 768 S 1 0 0 1 -385 360 2
+Refer: 162 226 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA8
+Encoding: 7848 7848 3739
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 432 534.2 2
+Refer: 130 194 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EA9
+Encoding: 7849 7849 3740
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 385 301 2
+Refer: 162 226 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EAA
+Encoding: 7850 7850 3741
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3668 -1 N 1 0 0 1 -1 759 2
+Refer: 130 194 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EAB
+Encoding: 7851 7851 3742
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 640 732 N 1 0 0 1 0 453 2
+Refer: 162 226 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EAE
+Encoding: 7854 7854 3743
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3667 -1 N 1 0 0 1 49 759 2
+Refer: 194 258 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EAF
+Encoding: 7855 7855 3744
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 656 769 N 1 0 0 1 49 466 2
+Refer: 195 259 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EB2
+Encoding: 7858 7858 3745
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 16 664 2
+Refer: 194 258 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EB3
+Encoding: 7859 7859 3746
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 399 2
+Refer: 195 259 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EB4
+Encoding: 7860 7860 3747
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3668 -1 N 1 0 0 1 0 759 2
+Refer: 194 258 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EB5
+Encoding: 7861 7861 3748
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 640 732 N 1 0 0 1 0 421 2
+Refer: 195 259 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EBA
+Encoding: 7866 7866 3749
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 21 378 2
+Refer: 38 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EBB
+Encoding: 7867 7867 3750
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 0 2
+Refer: 70 101 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EBE
+Encoding: 7870 7870 3751
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3667 -1 S 1 0 0 1 409 640.5 2
+Refer: 138 202 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EBF
+Encoding: 7871 7871 3752
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 656 769 S 1 0 0 1 436 360 2
+Refer: 170 234 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC0
+Encoding: 7872 7872 3753
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3669 -1 S 1 0 0 1 -375 621.5 2
+Refer: 138 202 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC1
+Encoding: 7873 7873 3754
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 655 768 S 1 0 0 1 -358 360 2
+Refer: 170 234 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC2
+Encoding: 7874 7874 3755
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 424 584 2
+Refer: 138 202 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC3
+Encoding: 7875 7875 3756
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 385 280 2
+Refer: 170 234 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC4
+Encoding: 7876 7876 3757
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3668 -1 N 1 0 0 1 30 759 2
+Refer: 138 202 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC5
+Encoding: 7877 7877 3758
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 640 732 N 1 0 0 1 39 453 2
+Refer: 170 234 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC8
+Encoding: 7880 7880 3759
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 357 2
+Refer: 42 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EC9
+Encoding: 7881 7881 3760
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 0 2
+Refer: 241 305 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ECE
+Encoding: 7886 7886 3761
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 372 2
+Refer: 48 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ECF
+Encoding: 7887 7887 3762
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 0 2
+Refer: 80 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED0
+Encoding: 7888 7888 3763
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3667 -1 S 1 0 0 1 390 615 2
+Refer: 148 212 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED1
+Encoding: 7889 7889 3764
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 656 769 S 1 0 0 1 361 367 2
+Refer: 180 244 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED2
+Encoding: 7890 7890 3765
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3669 -1 S 1 0 0 1 -410.5 636.4 2
+Refer: 148 212 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED3
+Encoding: 7891 7891 3766
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 655 768 S 1 0 0 1 -367 373 2
+Refer: 180 244 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED4
+Encoding: 7892 7892 3767
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 427.5 578.1 2
+Refer: 148 212 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED5
+Encoding: 7893 7893 3768
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 350 287 2
+Refer: 180 244 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED6
+Encoding: 7894 7894 3769
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 3668 -1 N 1 0 0 1 -1 759 2
+Refer: 148 212 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1ED7
+Encoding: 7895 7895 3770
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 640 732 N 1 0 0 1 0 454 2
+Refer: 180 244 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDE
+Encoding: 7902 7902 3771
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -105 364 2
+Refer: 352 416 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EDF
+Encoding: 7903 7903 3772
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -102 0 2
+Refer: 353 417 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EE6
+Encoding: 7910 7910 3773
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -21 378 2
+Refer: 54 85 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EE7
+Encoding: 7911 7911 3774
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -18 0 2
+Refer: 86 117 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EEC
+Encoding: 7916 7916 3775
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -126 378 2
+Refer: 367 431 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EED
+Encoding: 7917 7917 3776
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -174 18 2
+Refer: 368 432 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EF6
+Encoding: 7926 7926 3777
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 -14 360 2
+Refer: 58 89 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni1EF7
+Encoding: 7927 7927 3778
+Width: 1233
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 664 777 S 1 0 0 1 0 0 2
+Refer: 90 121 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
